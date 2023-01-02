@@ -60,22 +60,42 @@
 	 
 	 
 	  void ahla(){
+	      espace();
+	
 	printf("**********************  Ahla Bik frr ************************************************************************");
-	espace();
-	espace();
-	printf("                        ********   **         **     \n");
+    espace();
+    espace();
+    printf("                        ********   **         **     \n");
 	printf("                           **       **       **    \n");
 	printf("                           **        **     **           \n");
 	printf("                           **         **   **         \n");                              
 	printf("                           **     **   ** **             \n");
 	printf("                           **     **     *                     \n\n");
-	printf("                                                        Taureau Vache par Ahmed Hmila  ");
+	printf("                                                        Taureau Vache par Ahmed Hmila (C) ");
 
 	espace();
 	printf("**************************************************************************************************************");
 	}
 	
+	void adios(){
+	espace();	
+	printf("**************************************************************************************************************");
+	espace();
+
+	printf("**** Walahi sahbi nheb nochker rohi aal effort yaatini essaha (C) w (T) w fazet ******************************");
+    espace();
+
+	printf("**************************************************************************************************************");
+    espace();
+	}
 	
+	void mle3bi(int a){
+	printf("**************************************************************************************************************");
+	printf("\n**************************                    Joueur %d                    ************************************\n",a);
+    printf("**************************************************************************************************************");
+
+    
+	}
 	
 	void reg(){
 		espace();
@@ -97,6 +117,7 @@ void  main(){
 	
 	ahla();
     reg();
+    mle3bi(1);
 	espace();
     espace();
     do{
@@ -111,9 +132,9 @@ void  main(){
     for (b=1;b<length-1;b++){
     	for(u=b+1;u<length;u++){
 		if (chx[u]==chx[b]) {
-				do{printf(" vous avez donne un nombre incorrect \n");
+				do{printf(" Vous avez donne un nombre incorrect \n");
 					 	
-					 	printf("Pour recommencer appuyer sur 0 \n");
+					 	printf(" Pour recommencer appuyer sur 0 \n");
 			            scanf("%d",&k);
 						system("cls");
 						main();
@@ -122,7 +143,7 @@ void  main(){
 		}	
 	}
     
-	printf(" La longeur de votre nombre est : %d \n",length);
+	printf(" La longeur de votre nombre secret est : %d \n",length);
 	   espace();
 	    printf("                 **********************************            \n");
    espace();
@@ -146,10 +167,8 @@ void  main(){
     ahla();
     reg();
     
-    
-	printf("**************************************************************************************************************");
-	printf("\n**************************                    Joueur 2                    ************************************\n");
-    printf("**************************************************************************************************************");
+    mle3bi(2);
+
 
     
     
@@ -167,7 +186,7 @@ void  main(){
     p=malloc(length*sizeof(char));
     if (p==NULL)
 		{
-		printf( " pas assez de mémoire \n" ); 
+		printf( " pas assez de memoire \n" ); 
 		system(" pause " );
 		}
     
@@ -212,5 +231,6 @@ void  main(){
     			printf(" Dommage :( :( Vous n'avez pas trouve la solution : %s ",chx);
 			break;
 		      }	
-	}	
+	}
+	adios();	
 }		      

@@ -33,15 +33,15 @@ A challenging and fun number guessing game where players attempt to uncover each
 
 1. Clone the repository to your local machine using:
    ```
-   git clone https://github.com/ahmedhmila/taureau-et-vache.git
+   git clone https://github.com/ahmedhmila/Taureau-Vache-en-Ce.git
    ```
 2. Navigate to the project directory:
    ```
-   cd taureau-et-vache
+   cd Taureau-Vache-en-C
    ```
 3. Compile the source code using a C compiler:
    ```
-   gcc -o game main.c
+   gcc -o game projetc.c
    ```
 
 ## Usage
@@ -64,7 +64,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 - Project Creator: Ahmed Hmila 
-- Project Link: [https://github.com/ahmedhmila/taureau-et-vache](https://github.com/ahmedhmila/taureau-et-vache)
+- Project Link: [https://github.com/ahmedhmila/Taureau-Vache-en-C](https://github.com/ahmedhmila/Taureau-Vache-en-C)
 - 📧 **Email:** [ahmedhmiladev@gmail.com](mailto:ahmedhmiladev@gmail.com)
 - 💼 **LinkedIn:** [Let's connect on LinkedIn!](https://www.linkedin.com/in/ahmed-hmila/)
 ---
